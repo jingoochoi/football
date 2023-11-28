@@ -5,5 +5,5 @@ ul,ol{list-style: none;}
 .time{font-size: large;margin: 0;}
 .mtch{position: absolute;top: 0;left: 50%;transform: translateX(-50%);font-size: 10vw;text-align: center;}
 .back{width: 100%;margin-top: 20vh;}
-.txt1{width: 100%;height: 10vh;outline: 1px solid black;display: flex;justify-content: center;align-items: center;}
-.txt2{width: 100%;height: 10vh;outline: 1px solid black;display: flex;justify-content: center;align-items: center;}
+.txt1{width: 80%;height: 10vh;outline: 1px solid black;display: flex;justify-content: center;align-items: center;transform: translateX(12%);}
+.txt2{width: 80%;height: 10vh;outline: 1px solid black;display: flex;justify-content: center;align-items: center;transform: translateX(12%);}
