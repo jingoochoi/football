@@ -1,4 +1,4 @@
 export const data={
-    strk:{text:['shoot','pass'],imgs:'https://png.pngtree.com/png-vector/20230413/ourmid/pngtree-sketch-of-goalkeeper-trying-stop-a-shoot-score-artistic-football-soccer-vector-png-image_51391214.jpg'},
-    dfds:{text:['tackle','press'],imgs:'https://i.pinimg.com/originals/30/3f/e7/303fe74c96bd87f36de69fdb8655f46e.jpg'}
+    strk:{text:['SHOOT','PASS'],imgs:'https://png.pngtree.com/png-vector/20230425/ourmid/pngtree-continuous-line-drawing-of-soccer-player-shooting-a-freekick-vector-illustration-vector-png-image_50196204.jpg'},
+    dfds:{text:['TACKLE','PRESS'],imgs:'https://i.pinimg.com/originals/30/3f/e7/303fe74c96bd87f36de69fdb8655f46e.jpg'}
 }

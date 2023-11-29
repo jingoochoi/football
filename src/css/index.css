@@ -1,9 +1,12 @@
 html,body{margin: 0;padding: 0;}
 ul,ol{list-style: none;}
 #root{width: 100%;}
+.comp{width: 100%;height: 100vh;display: none;position: relative;}
+.ttxt{position: absolute;top: 50%;transform: translateY(-50%);text-align: center;}
+.comp img{width: 100%;}
 .stdu{width: 100%;height: 100vh;transform: translateX(-50%);position: relative;top: 0;left: 50%;}
 .time{font-size: large;margin: 0;}
 .mtch{position: absolute;top: 0;left: 50%;transform: translateX(-50%);font-size: 10vw;text-align: center;}
 .back{width: 100%;margin-top: 20vh;}
-.txt1{width: 80%;height: 10vh;outline: 1px solid black;display: flex;justify-content: center;align-items: center;transform: translateX(12%);}
-.txt2{width: 80%;height: 10vh;outline: 1px solid black;display: flex;justify-content: center;align-items: center;transform: translateX(12%);}
+.txt1{width: 80%;height: 10vh;outline: 1px solid black;display: flex;justify-content: center;align-items: center;transform: translateX(12%);margin-top: 2vh;}
+.txt2{width: 80%;height: 10vh;outline: 1px solid black;display: flex;justify-content: center;align-items: center;transform: translateX(12%);margin-top: 2vh;}
