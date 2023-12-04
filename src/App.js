@@ -25,7 +25,7 @@ function App() {
           ${ball[0][attk][1]}
           <img src=${ball[0][attk][2]}>
       `)
-      moon=voon+10
+      moon=voon+15
       setVoon(moon)
       if (attk==0) {
         let coal=goal+1
@@ -37,10 +37,10 @@ function App() {
       $('.ttxt').html(`
           ${ball[0][attk][0]}
           <br>
-          ${attk==0?'TEAM MATE':''} ${ball[0][attk][1]}
+          ${ball[0][attk][1]}
           <img src=${ball[0][attk][2]}>
       `)
-      moon=voon+10
+      moon=voon+15
       setVoon(moon)
       if (attk==0) {
         let coal=goal+1
@@ -60,7 +60,7 @@ function App() {
           ${ball[1][attk][1]}
           <img src=${ball[1][attk][2]}>
       `)
-      moon=voon+10
+      moon=voon+15
       setVoon(moon)
       if (attk==0) {
         let coal=juck+1
@@ -75,14 +75,14 @@ function App() {
           ${ball[1][attk][1]}
           <img src=${ball[1][attk][2]}>
       `)
-      moon=voon+10
+      moon=voon+15
       setVoon(moon)
       if (attk==0) {
         let coal=juck+1
         setJuck(coal)
       }
     }
-    // moon+=10
+    // moon+=15
   }
   // console.log(voon)
   if (voon==90) {
