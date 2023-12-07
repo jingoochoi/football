@@ -89,6 +89,8 @@ function App() {
     setTimeout(() => {
       $('.stdu').html(`
           <p>GAME SET.<br>MY TEAM ${goal} : ${juck} ENEMY.</p>
+          <br><br>
+          <div style="outline: 1px solid black;width: 80%;height: 10vh;display: flex;justify-content: center;align-items: center;transform: translateX(12%);" onclick="location.reload()">RESET</div>
       `).css({textAlign:'center'}).find('p').css({position:'absolute',top:'50%',left:'50%',transform:'translate(-50%,-50%)'})
     }, 3000);
   }
